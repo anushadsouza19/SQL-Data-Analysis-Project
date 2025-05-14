@@ -103,6 +103,8 @@ ORDER BY total_sold_items DESC;
 ```
 ![image](https://github.com/user-attachments/assets/eac72da7-ae1a-41dd-82f4-309f4aedb815)
 
+---
+
 ### b) Date Range Exploration 
 #### Purpose:
 ######    - To determine the temporal boundaries of key data points.
@@ -131,6 +133,8 @@ SELECT
 FROM gold.dim_customers;
 ```
 ![image](https://github.com/user-attachments/assets/901520ca-540f-41d8-af16-c206e31cb19c)
+
+---
 
 ### c) Ranking Analysis
 #### Purpose:
@@ -225,6 +229,8 @@ ORDER BY total_orders ;
 ```
 ![image](https://github.com/user-attachments/assets/92180c61-6927-40d4-8955-52b138dd1f00)
 
+---
+
 ### d) Change Over Time Analysis
 #### Purpose:
    ###### - To track trends, growth, and changes in key metrics over time.
@@ -247,6 +253,8 @@ GROUP BY DATETRUNC(month, order_date)
 ORDER BY DATETRUNC(month, order_date);
 ```
 ![image](https://github.com/user-attachments/assets/dee3fea2-79aa-46f3-8bbf-f7955acc75f1)
+
+---
 
 ### e) Cumulative Analysis
 #### Purpose:
@@ -275,6 +283,8 @@ FROM
 ) t
 ```
 ![image](https://github.com/user-attachments/assets/b3cba570-5180-4b8a-806c-fc398fd23c1a)
+
+---
 
 ### f) Part-to-Whole Analysis
 #### Purpose:
@@ -308,6 +318,8 @@ ORDER BY total_sales DESC;
 ```
 ![image](https://github.com/user-attachments/assets/ee0725e7-5e1f-41aa-ba2d-cca53c1453f8)
 
+---
+
 ### g) Part-to-Whole Analysis
 #### Purpose:
 ######    - To compare performance or metrics across dimensions or time periods.
@@ -339,6 +351,8 @@ FROM category_sales
 ORDER BY total_sales DESC;
 ```
 ![image](https://github.com/user-attachments/assets/4e2a390c-da2e-40c3-a284-a296ae7a89d0)
+
+---
 
 ### h) Data Segmentation Analysis
 #### Purpose:
@@ -409,6 +423,7 @@ FROM (
 ```
 ![image](https://github.com/user-attachments/assets/de42bf2b-a384-4b93-926a-affd82040ca1)
 
+---
 
 ### i) Performance Analysis (Year-over-Year, Month-over-Month)
 #### Purpose:
